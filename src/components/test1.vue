@@ -36,7 +36,6 @@ const unselected = computed(() =>
 );
 
 function add(item: object) {
-  console.log(item);
   selected.value.push(item);
 }
 
